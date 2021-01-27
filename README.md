@@ -1,4 +1,4 @@
-# PyBox
+# PyBox: a readily installed Python environment in a .zip
 ![alt text](art/main_icon_pybox.png "PyBox_Logo with Text")  
 
 "Just quickly install Anaconda and Python package x,y,z": you maybe already 
@@ -7,17 +7,17 @@ this task will not be done "quickly"  because there is always some error. Instal
 Python and dependencies can take day(s) and end in frustration or even capitulation. 
 As a result, your code may not be used by others.
 
-Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip and run it (by double-clicking PyBox_0.1.0.exe) - Batteries are included.
-PyBox provides popular Python packages like Scikit-learn, Tensorflow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!
+Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip - and run it (by double-clicking PyBox_0.1.0.exe) -> Batteries are included.  
+PyBox provides popular Python packages such as:  
+Scikit-learn, Tensorflow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!  
 PyBox is available for CPU and GPU. The GPU version comes readily equipped with CUDA.
-
 
 After unzipping, you find lots of files in that folder: this is everything needed for
 Python to run. Don't touch!  
 Also, you also find 3 Python scripts:
 * pybox_start.py
 * frontend.py  
-* backend.py
+* backend.py  
 You can modify these files entirely to your need. Examples below:
 
 # Example 1: As simple as it gets  
