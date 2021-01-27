@@ -7,7 +7,7 @@ this task will not be done "quickly"  because there is always some error. Instal
 Python and dependencies can take day(s) and end in frustration or even capitulation. 
 As a result, your code may not be used by others.
 
-Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip - and run it (by double-clicking PyBox_0.1.0.exe) -> Batteries are included.  
+Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip - and run it (by double-clicking **PyBox_0.1.0.exe**) -> Batteries are included.  
 PyBox provides popular Python packages such as:  
 Scikit-learn, Tensorflow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!  
 PyBox is available for CPU and GPU. The GPU version comes readily equipped with CUDA.
@@ -23,7 +23,7 @@ You can modify these files entirely to your need. Examples below:
 
 # Example 1: As simple as it gets  
 Let's just write a script to draw a parabola
-```
+```Python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -40,30 +40,30 @@ def pybox_start():
     plt.xlim(-10,10)
     plt.show()
 ```
-Insert this code into pybox_start.py. For this app, you dont need a GUI. Hence,
-you create and empty script called "frontend.py" and paste it into the PyBox folder (replace the existing frontend.py).
-Do the same for backend.py.
-Now you can double-click PyBox_0.1.0.exe and the result looks like this:  
+Insert this code into **pybox_start.py**. For this app, you dont need a GUI. Hence,
+you create and empty script called **frontend.py** and paste it into the PyBox folder (replace the existing **frontend.py**).
+Do the same for **backend.py**.
+Now you can double-click **PyBox_0.1.0.exe** and the result looks like this:  
 ![alt text](art/example_simple.png "example_simple")  
 
 # Example 2: Fancy GUI: Create a Python editor/console  
 You want to have a software with user-interface for example to distribute some
 machine learning/ deep learing toolkit. 
-When double-clicking PyBox_0.1.0.exe, first, the script pybox_start.py is executed.
-Within pybox_start.py, you have only a few functions that manage the startup of PyBox.
-These functions should not be renamed to take effect:
+When double-clicking **PyBox_0.1.0.exe**, first, the script **pybox_start.py** is executed.
+Within **pybox_start.py**, you only have a few functions that manage the startup of PyBox.
+The following functions should not be renamed to take effect:
 * splashscreen: Use this function to define a splashscreen
 * pybox_start: Arbitrary code that should be executed before opening the GUI (e.g. plot a banner to the console)  
 * pybox_main: Defines the main loop (starts GUI)
 
-The function pybox_main imports frontend.py and starts the GUI. You can modify frontend.py
+The function pybox_main imports **frontend.py** and starts the GUI. You can modify **frontend.py**
 entirely to your need. QtDesigner is a great tool to design a GUI. 
 
-Finally, you can outsource functions to backend.py. The example shows how to import 
+Finally, you can outsource functions to **backend.py**. The following example shows how to import 
 the backend and employ it.
 
-In the example, I defined a small app that allows to write and execute Python code.
-Just copy and paste pybox_start.py, frontend.py, and backend.py into your PyBox folder. After running PyBox, you should
+In the [example](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console), I defined a small app that allows to write and execute Python code.
+Just copy and paste [pybox_start.py](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console/pybox_start.py), [frontend.py](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console/frontend.py), and [backend.py](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console/backend.py) into your PyBox folder. After running PyBox, you should
 see something like that:  
 ![alt text](art/example_pythonGUI.png "example_pythonGUI")  
 
