@@ -12,9 +12,9 @@ PyBox provides popular Python packages like Scikit-learn, Tensorflow (with GPU s
 PyBox is available for CPU and GPU. The GPU version comes readily equipped with CUDA.
 
 
-Within the unzipped folder you find lots of files: this is everything needed for
+After unzipping, you find lots of files in that folder: this is everything needed for
 Python to run. Don't touch!  
-You also find 3 Python scripts:
+Also, you also find 3 Python scripts:
 * pybox_start.py
 * frontend.py  
 * backend.py
