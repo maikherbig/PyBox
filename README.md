@@ -20,7 +20,7 @@ Also, you also find 3 Python scripts:
 * backend.py
 You can modify these files entirely to your need. Examples below:
 
-# As simple as it gets  
+# Example 1: As simple as it gets  
 Let's just write a script to draw a parabola
 ```
 import numpy as np
@@ -45,7 +45,7 @@ Do the same for backend.py.
 Now you can double-click PyBox_0.1.0.exe and the result looks like this:  
 ![alt text](art/example_simple.png "example_simple")  
 
-# Fancy GUI: Create a Python editor/console  
+# Example 2: Fancy GUI: Create a Python editor/console  
 You want to have a software with user-interface for example to distribute some
 machine learning/ deep learing toolkit. 
 When double-clicking PyBox_0.1.0.exe, first, the script pybox_start.py is executed.
