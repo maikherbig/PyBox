@@ -66,7 +66,7 @@ In the [example](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Py
 Just copy and paste [pybox_start.py](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console/pybox_start.py), [frontend.py](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console/frontend.py), and [backend.py](https://github.com/maikherbig/PyBox/blob/master/02_Fancy_GUI_Python_Editor_Console/backend.py) into your PyBox folder. After running PyBox, you should
 see something like that:  
 ![alt text](art/example_pythonGUI.png "example_pythonGUI")  
-
+As you can see, you can simply replace the three scripts and PyBox starts to do something completely different. Hence, you can do whatever you want!
 
 # Which packages are contained in PyBox? 
 The PyBox environment was created using Anaconda and the following commands
