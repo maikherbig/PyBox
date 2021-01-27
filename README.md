@@ -9,7 +9,7 @@ As a result, your code may not be used by others.
 
 Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip - and run it (by double-clicking **PyBox_0.1.0.exe**) -> Batteries are included.  
 PyBox provides popular Python packages such as:  
-Scikit-learn, Tensorflow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!  
+Scikit-learn, TensorFlow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!  
 PyBox is available for CPU and GPU. The GPU version comes readily equipped with CUDA.
 
 After unzipping, you find lots of files in that folder: this is everything needed for
@@ -40,19 +40,19 @@ def pybox_start():
     plt.xlim(-10,10)
     plt.show()
 ```
-Insert this code into **pybox_start.py**. For this app, you dont need a GUI. Hence,
+Insert this code into **pybox_start.py**. For this app, you don't need a GUI. Hence,
 you create and empty script called **frontend.py** and paste it into the PyBox folder (replace the existing **frontend.py**).
 Do the same for **backend.py**.
 Now you can double-click **PyBox_0.1.0.exe** and the result looks like this:  
 ![alt text](art/example_simple.png "example_simple")  
 
 # Example 2: Fancy GUI: Create a Python editor/console  
-You want to have a software with user-interface for example to distribute some
-machine learning/ deep learing toolkit. 
+You want to have a software with user-interface for example to distribute a
+machine learning/ deep learning toolkit. 
 When double-clicking **PyBox_0.1.0.exe**, first, the script **pybox_start.py** is executed.
 Within **pybox_start.py**, you only have a few functions that manage the startup of PyBox.
 The following functions should not be renamed to take effect:
-* splashscreen: Use this function to define a splashscreen
+* splashscreen: Use this function to define a splash screen
 * pybox_start: Arbitrary code that should be executed before opening the GUI (e.g. plot a banner to the console)  
 * pybox_main: Defines the main loop (starts GUI)
 
