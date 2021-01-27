@@ -7,7 +7,10 @@ this task will not be done "quickly"  because there is always some error. Instal
 Python and dependencies can take day(s) and end in frustration or even capitulation. 
 As a result, your code may not be used by others.
 
-Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip and run it (by double-clicking PyBox_0.1.0.exe)
+Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip and run it (by double-clicking PyBox_0.1.0.exe) - Batteries are included.
+PyBox provides popular Python packages like Scikit-learn, Tensorflow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!
+PyBox is available for CPU and GPU. The GPU version comes readily equipped with CUDA.
+
 
 Within the unzipped folder you find lots of files: this is everything needed for
 Python to run. Don't touch!  
@@ -45,12 +48,12 @@ Now you can double-click PyBox_0.1.0.exe and the result looks like this:
 # Fancy GUI: Create a Python editor/console  
 You want to have a software with user-interface for example to distribute some
 machine learning/ deep learing toolkit. 
-When double-clicking PyBox_0.1.0.exe, first, the script pybox_start is executed.
-Within pybox_start, you have only a few functions that manage the startup of PyBox.
+When double-clicking PyBox_0.1.0.exe, first, the script pybox_start.py is executed.
+Within pybox_start.py, you have only a few functions that manage the startup of PyBox.
 These functions should not be renamed to take effect:
 * splashscreen: Use this function to define a splashscreen
-* pybox_start: Arbitrary code that should be executed before opening the GUI (in the example below, a banner is plotted to the console)  
-* pybox_main: Function defines the main loop (starts GUI)
+* pybox_start: Arbitrary code that should be executed before opening the GUI (e.g. plot a banner to the console)  
+* pybox_main: Defines the main loop (starts GUI)
 
 The function pybox_main imports frontend.py and starts the GUI. You can modify frontend.py
 entirely to your need. QtDesigner is a great tool to design a GUI. 
