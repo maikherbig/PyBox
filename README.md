@@ -7,7 +7,7 @@ this task will not be done "quickly"  because there is always some error. Instal
 Python and dependencies can take day(s) and end in frustration or even capitulation. 
 As a result, your code may not be used by others.
 
-Now comes PyBox: PyBox is Python in a .zip file. Just download it - unzip - and run it (by double-clicking **PyBox_0.1.0.exe**) -> Batteries are included.  
+Now comes PyBox: PyBox is Python in a .zip file. Just download a [release](https://github.com/maikherbig/PyBox/releases/) - unzip - and run it (by double-clicking **PyBox_0.1.0.exe**) -> Batteries are included.  
 PyBox provides popular Python packages such as:  
 Scikit-learn, TensorFlow (with GPU support!), Keras, OpenCV, Matplotlib, PyQt5, Pandas, NumPy and many more!  
 PyBox is available for CPU and GPU. The GPU version comes readily equipped with CUDA.
