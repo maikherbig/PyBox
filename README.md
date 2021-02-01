@@ -41,7 +41,7 @@ def pybox_start():
     plt.show()
 ```
 Insert this code into **pybox_start.py**. For this app, you don't need a GUI. Hence,
-you create and empty script called **frontend.py** and paste it into the PyBox folder (replace the existing **frontend.py**).
+you create an empty script called **frontend.py** and paste it into the PyBox folder (replace the existing **frontend.py**).
 Do the same for **backend.py**.
 Now you can double-click **PyBox_0.1.0.exe** and the result looks like this:  
 ![alt text](art/example_simple.png "example_simple")  
